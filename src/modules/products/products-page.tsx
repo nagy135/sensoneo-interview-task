@@ -1,15 +1,17 @@
-import { Milk } from "lucide-react";
-
-import { PageHeader } from "../../components/page-header";
+import { PageHeader } from "@/components/page-header";
+import { ProductsTable } from "./components/products-table";
+import { useTranslation } from "react-i18next";
 
 export function ProductsPage() {
+  const { t } = useTranslation();
+
   return (
-    <div>
+    <div className="space-y-6">
       <PageHeader
-        title="Registered products"
-        description="View and manage your registered products."
-        icon={<Milk size={28} />}
+        title={t("productsPage.title")}
+        description={t("productsPage.description")}
       />
+      <ProductsTable />
     </div>
   );
 }

@@ -1,0 +1,161 @@
+{
+  "app": {
+    "name": "DepositManager"
+  },
+  "common": {
+    "currency": "USD",
+    "loading": "Laden...",
+    "noResults": "Keine Treffer",
+    "unknownError": "Etwas ist schiefgelaufen"
+  },
+  "navigation": {
+    "home": "Start",
+    "products": "Produkte",
+    "languageToggle": "Sprache wechseln zu {{lng}}"
+  },
+  "home": {
+    "title": "Dashboard zur Pfandverwaltung",
+    "description": "Willkommen in Ihrem Pfandverwaltungssystem. Überwachen und verwalten Sie Produkte, Unternehmen und Benutzer.",
+    "addNewProduct": "Neues Produkt"
+  },
+  "metrics": {
+    "activeProducts": {
+      "title": "Aktive Produkte",
+      "description": "Aktive Produkte im System"
+    },
+    "pendingProducts": {
+      "title": "Ausstehende Produkte",
+      "description": "Produkte warten auf Freigabe"
+    },
+    "companies": {
+      "title": "Unternehmen",
+      "description": "Registrierte Unternehmen"
+    },
+    "users": {
+      "title": "Benutzer",
+      "description": "Registrierte Benutzer"
+    }
+  },
+  "quickActions": {
+    "title": "Schnellaktionen",
+    "viewAllProducts": "Alle Produkte ansehen",
+    "addNewProduct": "Neues Produkt"
+  },
+  "recentProducts": {
+    "title": "Neueste Produkte",
+    "error": "Neueste Produkte konnten nicht geladen werden.",
+    "empty": "Keine aktiven Produkte gefunden."
+  },
+  "productsPage": {
+    "title": "Registrierte Produkte",
+    "description": "Registrierte Produkte ansehen und verwalten."
+  },
+  "productsTable": {
+    "refresh": "Aktualisieren",
+    "empty": "Keine Produkte gefunden.",
+    "columns": {
+      "name": "Name",
+      "packaging": "Verpackung",
+      "deposit": "Pfand",
+      "volume": "Volumen",
+      "company": "Unternehmen",
+      "registeredBy": "Erfasst von",
+      "registered": "Erfasst am",
+      "active": "Aktiv"
+    },
+    "status": {
+      "active": "Aktiv",
+      "inactive": "Inaktiv"
+    },
+    "caption": "Seite {{current}} von {{totalPages}} - {{totalItems}} gesamt"
+  },
+  "productsFilters": {
+    "statusLabel": "Status:",
+    "statusPlaceholder": "Nach Status filtern",
+    "options": {
+      "all": "Alle",
+      "active": "Aktiv",
+      "inactive": "Inaktiv"
+    }
+  },
+  "productsPageSize": {
+    "rowsPerPage": "Zeilen pro Seite:"
+  },
+  "pagination": {
+    "nav": "Seitennavigation",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "aria": {
+      "previous": "Zur vorherigen Seite",
+      "next": "Zur nächsten Seite"
+    },
+    "ellipsis": "Weitere Seiten"
+  },
+  "dialog": {
+    "close": "Schließen"
+  },
+  "units": {
+    "liters": "{{value}}L",
+    "milliliters": "{{value}}ml"
+  },
+  "products": {
+    "depositNoun": "Pfand",
+    "packaging": {
+      "pet": "PET",
+      "can": "Dose",
+      "glass": "Glas",
+      "tetra": "Tetra",
+      "other": "Sonstiges"
+    }
+  },
+  "createProduct": {
+    "title": "Neues Produkt",
+    "description": "Produktdetails angeben. Neue Produkte werden standardmäßig als ausstehend erstellt.",
+    "errorTitle": "Produkt konnte nicht erstellt werden",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "z.B. Coca Cola 330ml Dose"
+      },
+      "packaging": {
+        "label": "Verpackung",
+        "placeholder": "Verpackung wählen"
+      },
+      "deposit": {
+        "label": "Pfand (Cent)"
+      },
+      "volume": {
+        "label": "Volumen (ml)"
+      },
+      "company": {
+        "label": "Unternehmen",
+        "placeholder": "Unternehmen nach Name suchen..."
+      },
+      "registeredBy": {
+        "label": "Erfasst von",
+        "placeholder": "Benutzer nach Name oder E-Mail suchen..."
+      }
+    },
+    "buttons": {
+      "cancel": "Abbrechen",
+      "create": "Produkt erstellen",
+      "creating": "Wird erstellt..."
+    },
+    "validation": {
+      "nameRequired": "Name ist erforderlich",
+      "nameTooLong": "Name ist zu lang",
+      "depositNumber": "Pfand muss eine Zahl sein",
+      "depositInteger": "Pfand muss eine ganze Zahl sein",
+      "depositMin": "Pfand muss 0 oder größer sein",
+      "volumeNumber": "Volumen muss eine Zahl sein",
+      "volumeInteger": "Volumen muss eine ganze Zahl sein",
+      "volumeMin": "Volumen muss mindestens 1 sein",
+      "companyIdNumber": "Unternehmens-ID muss eine Zahl sein",
+      "companyIdInteger": "Unternehmens-ID muss eine ganze Zahl sein",
+      "companyIdMin": "Unternehmens-ID muss mindestens 1 sein",
+      "registeredByNumber": "Erfasst von muss eine Zahl sein",
+      "registeredByInteger": "Erfasst von muss eine ganze Zahl sein",
+      "registeredByMin": "Erfasst von muss mindestens 1 sein"
+    }
+  }
+}

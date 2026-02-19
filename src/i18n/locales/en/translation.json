@@ -1,0 +1,161 @@
+{
+  "app": {
+    "name": "DepositManager"
+  },
+  "common": {
+    "currency": "USD",
+    "loading": "Loading...",
+    "noResults": "No results",
+    "unknownError": "Something went wrong"
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "languageToggle": "Switch language to {{lng}}"
+  },
+  "home": {
+    "title": "Deposit management dashboard",
+    "description": "Welcome to your deposit management system. Monitor and manage your products, companies, and users.",
+    "addNewProduct": "Add new product"
+  },
+  "metrics": {
+    "activeProducts": {
+      "title": "Active products",
+      "description": "Active products in system"
+    },
+    "pendingProducts": {
+      "title": "Pending products",
+      "description": "Products waiting for approval"
+    },
+    "companies": {
+      "title": "Companies",
+      "description": "Registered companies"
+    },
+    "users": {
+      "title": "Users",
+      "description": "Registered users"
+    }
+  },
+  "quickActions": {
+    "title": "Quick actions",
+    "viewAllProducts": "View all products",
+    "addNewProduct": "Add new product"
+  },
+  "recentProducts": {
+    "title": "Recent products",
+    "error": "Failed to load recent products.",
+    "empty": "No active products found."
+  },
+  "productsPage": {
+    "title": "Registered products",
+    "description": "View and manage your registered products."
+  },
+  "productsTable": {
+    "refresh": "Refresh",
+    "empty": "No products found.",
+    "columns": {
+      "name": "Name",
+      "packaging": "Packaging",
+      "deposit": "Deposit",
+      "volume": "Volume",
+      "company": "Company",
+      "registeredBy": "Registered By",
+      "registered": "Registered",
+      "active": "Active"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "caption": "Page {{current}} of {{totalPages}} - {{totalItems}} total"
+  },
+  "productsFilters": {
+    "statusLabel": "Status:",
+    "statusPlaceholder": "Filter by status",
+    "options": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "productsPageSize": {
+    "rowsPerPage": "Rows per page:"
+  },
+  "pagination": {
+    "nav": "pagination",
+    "previous": "Previous",
+    "next": "Next",
+    "aria": {
+      "previous": "Go to previous page",
+      "next": "Go to next page"
+    },
+    "ellipsis": "More pages"
+  },
+  "dialog": {
+    "close": "Close"
+  },
+  "units": {
+    "liters": "{{value}}L",
+    "milliliters": "{{value}}ml"
+  },
+  "products": {
+    "depositNoun": "deposit",
+    "packaging": {
+      "pet": "PET",
+      "can": "Can",
+      "glass": "Glass",
+      "tetra": "Tetra",
+      "other": "Other"
+    }
+  },
+  "createProduct": {
+    "title": "Add new product",
+    "description": "Provide the product details. New products are created as pending approval by default.",
+    "errorTitle": "Could not create product",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "e.g. Coca Cola 330ml Can"
+      },
+      "packaging": {
+        "label": "Packaging",
+        "placeholder": "Select packaging"
+      },
+      "deposit": {
+        "label": "Deposit (cents)"
+      },
+      "volume": {
+        "label": "Volume (ml)"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Search company by name..."
+      },
+      "registeredBy": {
+        "label": "Registered By",
+        "placeholder": "Search user by name or email..."
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "create": "Create product",
+      "creating": "Creating..."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameTooLong": "Name is too long",
+      "depositNumber": "Deposit must be a number",
+      "depositInteger": "Deposit must be an integer",
+      "depositMin": "Deposit must be 0 or greater",
+      "volumeNumber": "Volume must be a number",
+      "volumeInteger": "Volume must be an integer",
+      "volumeMin": "Volume must be at least 1",
+      "companyIdNumber": "Company ID must be a number",
+      "companyIdInteger": "Company ID must be an integer",
+      "companyIdMin": "Company ID must be at least 1",
+      "registeredByNumber": "Registered by must be a number",
+      "registeredByInteger": "Registered by must be an integer",
+      "registeredByMin": "Registered by must be at least 1"
+    }
+  }
+}
